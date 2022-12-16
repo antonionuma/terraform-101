@@ -1,7 +1,7 @@
-output "google_storage_bucket" {
-  description = "Bucket used for storing terraform state"
-  value       = google_storage_bucket.tf-state.name
-}
+# output "google_storage_bucket" {
+#   description = "Bucket used for storing terraform state"
+#   value       = google_storage_bucket.tf-state.name
+# }
 
 #output "google_compute_instance" {
 #  description = "compute instance name"
@@ -16,5 +16,5 @@ output "google_storage_bucket" {
 
 output "aws_s3_bucket" {
   description = "Bucket used for storing terraform state"
-  value       = aws_s3_bucket.tfstate.name
+  value       = aws_s3_bucket.tf-state.bucket
 }

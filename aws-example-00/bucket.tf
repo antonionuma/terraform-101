@@ -8,8 +8,8 @@
 #     enabled = true
 #   }
 
-resource "aws_s3_bucket" "tfstate-bucket-0011" {
-   bucket = "tfstate-s3-with-terraform"
+resource "aws_s3_bucket" "tf-state" {
+   bucket = "tfstate-s3-with-terraform-0011"
    acl = "private"
    versioning {
       enabled = true
